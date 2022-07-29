@@ -1,5 +1,6 @@
 ﻿# KRYPTO-TEST
-due to lack of time i was only able to create the front end using html5,css3,js
+ 
+due to lack of time i was only able to create the front end using html5,css3,js(Also the boiler plate template wasnt working for me even after following the instructions so i made an ecommerce website from scratch)
 
 I have created an e-commerce websuite for laptop-accesories specific to gaming.
 
