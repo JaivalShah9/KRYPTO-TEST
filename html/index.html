@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="/assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/assets/css/home.css">
+	<link rel="stylesheet" href="/assets/css/nav.css">
+ 
+
+    </title>
+</head>
+<body>
+	<nav class="navbar">  
+		<ul class="links-container">
+			<li class="link-item"><a href="#" class="link">About us</a></li>
+			<li class="link-item"><a href="#" class="link">Contact</a></li>
+			<li class="link-item"><a href="#" class="link">Chat Bot</a></li>
+			<li class="link-item"><a href="https://avyay.solutions/" class="link">Avyay</a></li>
+		</ul>
+		<div class="nav">
+			<img src="/assets/images/logo.png" class="brand-logo" alt="">
+			<div class="nav-items">
+				<div class="search">
+					<input type="text" class="search-box" placeholder="search brand, product">
+					<button class="search-btn">search</button>
+				</div>
+				<a href="#"><img src="/assets/images/user.png	" alt=""></a>
+				<a href="#"><img src="/assets/images/cart.png" alt=""></a>
+			</div>
+		</div>
+		 </nav>
+	<div class="container" > 
+		<div class="form-box">
+			<div class="main">
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" class="switch" onclick="login()">LOG IN</button>
+				<button type="button" class="switch" onclick="signup()">SIGN UP</button>
+			</div>
+			<div class="socials">
+				<div class="icon">
+				
+				<i class="fa fa-facebook-square" id="fb" style="font-size:24px"></i>
+				<i class="fa fa-twitter-square" id="tw" style="font-size:24px"></i>
+			</div>
+			</div>
+			<form id="login" class="input-stuff">
+				<input type="text" class="input-field" placeholder="USERNAME" required>
+				<input type="password" class="input-field" placeholder="Password" required>
+				<input type="checkbox" class="check-box"><span>Accept T&C</span>
+				<button type="submit" class="submit">LOG IN</button>
+
+			</form>
+			<form id="signup" class="input-stuff">
+				<input type="text" class="input-field" placeholder="USERNAME" required>
+				<input type="password" class="input-field" placeholder="Password" required>
+				<input type="email" class="input-field" placeholder="E-mail ID" required>
+				<input type="checkbox" class="check-box"><span>Accept T&C</span>
+				<button type="submit" class="submit">SIGN UP</button>
+
+			</form>
+		</div>
+		</div>
+		
+	</div>
+	<script>
+		var x= document.getElementById("login");
+		var y= document.getElementById("signup");
+		var z= document.getElementById("btn");
+		function signup(){
+			x.style.left="-370px";
+			y.style.left="50px";
+			z.style.left="110px";
+		}
+		function login(){
+			x.style.left="50px";
+			y.style.left="450px";
+			z.style.left="0px";
+		}
+	</script>
+</body>
+</html>
+
+	
+		

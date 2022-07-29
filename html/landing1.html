@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/landing1.css">
+    <title>Home Page</title>
+</head>
+<body>
+    
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="/images/logo.png" class="logo"></a>
+            <ul>
+                <li><a href="/html/cart.html">Checkout</a></li>
+                <li><a href="/html/product.html">Products</a></li>
+                <li><a href="https://avyay.solutions/">About us</a></li>
+                <li><a href="/html/index.html">Signup</a></li>
+            </ul>
+        </header>
+        <div class="container">
+            <div class="text"> 
+                <h2><span>WASD</span> PRO<br> GGWP LAUNCH</h2>
+                
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                     Molestiae, commodi dolore numquam dignissimos vitae 
+                     voluptatem ipsam consectetur perferendis nemo. 
+                     Cum corporis nemo iusto optio quam.
+                </p>
+                <!-- <h2 id="currentDate"> </h2> -->
+                <button type="submit"> <a href="#">ADD TO BAG</a></button>
+                
+            </div>
+         <div class="IMG">
+        <img src="/images/mouse1.png" class="wasd">
+    </div>
+</div> 
+<ul class="thumb">
+    <li><img src="/images/keyboard.png" onclick="imgSlider('/images/img3.png') "></li>
+    <li><img src="/images/headphone.png" onclick="imgSlider('/images/img2.png')"></li>
+    <li><img src="/images/pad.png" onclick="imgSlider('/images/img4.png')"></li>
+</ul>
+<ul class="social">
+    <li><a href="#"><i class="fa fa-facebook-square" id="fb" style="font-size:36px"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter-square" id="fb" style="font-size:36px"></i></a></li>
+</ul>
+
+    </section>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment-with-locales.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <!-- <script src="Initial.js"></script> -->
+    <script type="text/javascript"> 
+
+    function imgSlider(anything)
+    {
+        document.querySelector('.wasd').src=anything;
+    }
+
+    </script>
+</body>
+</html>
